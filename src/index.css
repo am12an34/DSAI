@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Orbitron:wght@400..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Host Grotesk", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #111111;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0da34e;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+@keyframes load {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+    }
+
+    50% {
+        transform: scale(1.3);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 20px -0px;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        fill: var(--logo-color);
+    }
+
+    50% {
+        fill: white;
+    }
+
+    100% {
+        fill: var(--logo-color);
+    }
+}

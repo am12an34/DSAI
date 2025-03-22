@@ -1,0 +1,21 @@
+.button1{
+    border: none;
+    height: 3.5vw;
+    padding: 0rem 2vw ;
+    background-color: #0da34e;
+    border-radius: 20rem;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    svg{
+        font-size: 1vw;
+    }
+}
+.button1:hover{
+    background-color: black;
+}

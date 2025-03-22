@@ -1,0 +1,35 @@
+.moving-div{
+    margin-top: 4rem;
+    font-size: 3vw;
+    display: flex;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+.moving-div-elm{
+    padding-right: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;  
+    animation-name: move;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.moving-div-side1{
+    height: 100%;
+    width: 5vw;
+    background:linear-gradient(to left,transparent,#1111119d,#111111eb,#111111);
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.moving-div-side2{
+    height: 100%;
+    width: 5vw;
+    background:linear-gradient(to right,transparent,#1111119d,#111111eb,#111111);
+    position: absolute;
+    right: -1vw;
+    z-index: 1;
+}

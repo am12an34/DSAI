@@ -1,0 +1,35 @@
+.features{
+    padding: 0rem 4vw ;
+    margin: 8vw 0vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.features-head{
+    padding-left: 35%;
+    display: grid;
+    grid-template-areas: 'head headText1'
+    'headText2 headText2';
+    row-gap: 1rem;
+    #head{
+        text-transform: uppercase;
+        color: #6f6f6f;
+        font-size: 1vw;
+        font-weight: 600;
+        grid-area: head;
+    }
+    #head-text1{
+        font-size: 1vw;
+        text-align: justify;
+        font-weight: 100;
+        grid-area: headText1;
+        color: rgb(222, 222, 222);
+    }
+    #head-text2{
+        font-size: 1vw;
+        text-align: justify;
+        font-weight: 100;
+        grid-area: headText2;
+        color: rgb(222, 222, 222);
+    }
+}
